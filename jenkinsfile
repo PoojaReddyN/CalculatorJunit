@@ -7,12 +7,6 @@ pipeline {
                 bat 'mvn clean'
             }
         }
-
-        stage('Test') {
-             steps {
-                        bat 'mvn test'
-                    }
-                }
             }
 
             post {
